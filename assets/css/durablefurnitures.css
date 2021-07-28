@@ -168,7 +168,6 @@ top: 10%;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
     height: 100vh;   
    }
    .content h2{
@@ -294,10 +293,11 @@ margin-top: 20px;
     flex-direction: column;
     background: url(../images/pexels-photo-6934181.jpeg);
     background-size: cover;
-    z-index: -1;
+ 
 
 }
 .contact .contents{
+    margin-top: 5%;
     max-width: 800px;
     text-align: center;
 
@@ -357,6 +357,7 @@ color: #00bcd4;
     padding: 40px;
     background: #fff;
     margin-top: 20px;
+
 }
 .contactForm h2{
     font-size: 30px;
